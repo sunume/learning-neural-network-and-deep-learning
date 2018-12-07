@@ -20,3 +20,4 @@ for i in range(1,11):
     output = sum(inputVec2*weight) +biases
     output = 1.0/(1+math.exp(-output*1.0))
     print(output)
+    a = 1
